@@ -1,6 +1,6 @@
 import React from 'react';
 
-const defaultWrap = ({ children }) => {
+const defaultWrapFunc = ({ children }) => {
   return children;
 };
 
@@ -10,8 +10,8 @@ const defaultChildren = (
 
 const SwitchWrap = ({
   when = "",
-  wraps = defaultWrap,
-  defaultWrap = defaultWrap,
+  wraps = {},
+  defaultWrap = defaultWrapFunc,
   children = defaultChildren,
   ...rest
 }) => {
