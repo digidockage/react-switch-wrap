@@ -1,14 +1,3 @@
-# React switch wrap
-A simple React component for wrapping children based on a selector.
-
-### Install
-```
-npm install @esultolabs/react-switch-wrap
-```
-
-### Example
-
-```js
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 
@@ -154,4 +143,3 @@ const Demo = () => {
 }
 
 render(<Demo />, document.querySelector('#demo'));
-```
