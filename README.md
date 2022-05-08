@@ -3,7 +3,7 @@ A simple React component for wrapping children based on a selector.
 
 ### Install
 ```
-npm install @esultolabs/react-switch-wrap
+npm install @digidockage/react-switch-wrap
 ```
 
 ### Example
@@ -71,7 +71,7 @@ const WrappedComponent = ({ id, parentExtraProp, childExtraProp }) => {
 
 const Demo = () => {
   const select = getRandomSelect();
-  
+
   return (
     <React.Fragment>
       <h1>SwitchWrap using variable</h1>
